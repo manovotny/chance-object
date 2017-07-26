@@ -31,8 +31,8 @@ describe('index.js', () => {
         });
 
         expect(result).toEqual({
-            [word]: word,
-            key: 'value'
+            key: 'value',
+            [word]: word
         });
     });
 });
