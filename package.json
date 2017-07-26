@@ -1,6 +1,6 @@
 {
   "name": "chance-object",
-  "description": "A Chance.js mixin to generate a dotfile.",
+  "description": "A Chance.js mixin to generate objects.",
   "version": "0.0.0",
   "author": {
     "name": "Michael Novotny",
