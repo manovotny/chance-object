@@ -1,4 +1,4 @@
-# chance-object [![Build Status](https://travis-ci.org/manovotny/chance-object.svg?branch=master)](https://travis-ci.org/manovotny/chance-object)
+# chance-object
 
 > A [Chance.js mixin](http://chancejs.com/#mixin) to generate objects.
 
