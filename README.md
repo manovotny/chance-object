@@ -37,7 +37,7 @@ Example:
 
 ```js
 {
-    randomKey: 'randomValue'
+    randomKey: 'randomValue';
 }
 ```
 
@@ -62,4 +62,4 @@ Result:
 
 ## License
 
-MIT © [Michael Novotny](http://manovotny.com)
+MIT © [Michael Novotny](https://manovotny.com)

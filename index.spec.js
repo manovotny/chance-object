@@ -17,7 +17,7 @@ describe('index.js', () => {
         });
     });
 
-    it('should return random object', () => {
+    test('should return random object', () => {
         const result = chance.object();
 
         expect(result).toEqual({
@@ -25,7 +25,7 @@ describe('index.js', () => {
         });
     });
 
-    it('should return random object along with specified keys / values', () => {
+    test('should return random object along with specified keys / values', () => {
         const result = chance.object({
             key: 'value'
         });
