@@ -1,5 +1,8 @@
-module.exports = (object) => Object.assign(
-    {},
-    {[chance.word()]: chance.word()}, // eslint-disable-line no-undef
-    object
-);
+const Chance = require('chance');
+
+const chance = new Chance();
+
+module.exports = (object) => ({
+    [chance.word()]: chance.word(),
+    ...object
+});
